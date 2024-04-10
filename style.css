@@ -1,0 +1,20 @@
+.flex-container {
+  background: peachpuff;
+  display: flex;
+  flex-direction: column;
+}
+
+.outer-box {
+  background: blueviolet;
+  display: flex;
+}
+
+.inner-box {
+  background: red;
+  flex: 1;
+  aspect-ratio: 1 / 1;
+}
+
+.hover {
+  background: black;
+}
